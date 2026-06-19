@@ -42,4 +42,4 @@ app.post('/api/sign', upload.fields([
   });
 });
 
-app.listen(process.env.PORT || 3000, () => console.log('StarCheats Signer running'));
+app.listen(7860, () => console.log('StarCheats Signer running on port 7860'));
